@@ -5,8 +5,8 @@
  */
 #include "json_iterator.h"
 
-#include <stdlib.h>
 #include <assert.h>
+#include <stdlib.h>
 #ifndef JSON_ITERATOR_INCLUDE_COMMENT
 #include <string.h>
 #endif
