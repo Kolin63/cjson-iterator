@@ -1,0 +1,32 @@
+{
+  "comment": "this is a test file",
+  "age": 10,
+  "name": "Guy",
+  "hobbies": [
+    "football",
+    "basketball",
+    "baseball",
+    "swimming"
+  ],
+  "comment": {
+    "skibidi": "toilet",
+    "6": 7
+  },
+  "pet": {
+    "type": "dog",
+    "feet": 4.5,
+    "eyes": 3
+  },
+  "hierarchy": {
+    "first": {
+      "second": {
+        "third": {
+          "fourth": {
+            "fifth": "hello!"
+          }
+        },
+        "rest here": "for a traveller"
+      }
+    }
+  }
+}
