@@ -38,6 +38,7 @@ while (true) {
   // ...
 }
 json_iterator_cleanup(iter);
+cJSON_Delete(json);
   */
 struct json_iterator* json_iterate(struct json_iterator* iter);
 
