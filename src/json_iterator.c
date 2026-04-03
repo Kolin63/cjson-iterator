@@ -13,12 +13,6 @@
 
 #include "cJSON.h"
 
-// data structure used for iterating through cjson data
-struct json_iterator {
-  cJSON* json;
-  struct json_iterator* parent;
-};
-
 // make sure the cjson passed is referencing the root object. remember to call
 // json_iterator_cleanup() when you're done
 struct json_iterator* json_iterator_init(cJSON* json) {
