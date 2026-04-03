@@ -15,7 +15,7 @@
 
 // make sure the cjson passed is referencing the root object. remember to call
 // json_iterator_cleanup() when you're done
-struct json_iterator* json_iterator_init(cJSON* json) {
+struct json_iterator* json_iterator_init(const cJSON* json) {
   struct json_iterator* iter = malloc(sizeof(struct json_iterator));
   iter->json = json;
   iter->parent = NULL;
